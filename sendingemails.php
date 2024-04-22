@@ -27,7 +27,7 @@ if (!isset($_SESSION["user"])) {
 $host = "localhost";
 $database_name = "Employees";
 $username = "root";
-$password = "@Mysql123";
+$password = "";
 
 // Create database connection
 $connection = new mysqli($host, $username, $password, $database_name);
