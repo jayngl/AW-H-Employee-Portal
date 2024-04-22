@@ -1,5 +1,8 @@
+<?php include 'menu.php'; ?>
 <?php
 session_start();
+
+
 
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
