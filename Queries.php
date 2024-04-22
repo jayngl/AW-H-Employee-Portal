@@ -31,7 +31,7 @@ function get_db_connection() {
     $host = "localhost";
     $database_name = "Employees";
     $username = "root";
-    $password = "@Mysql123";
+    $password = "";
 
     // Create connection
     $connection = new mysqli($host, $username, $password, $database_name);
