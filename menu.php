@@ -1,7 +1,7 @@
 <nav>
     <a href="sendingemails.php">Send Email with Employment Details</a>
     <a href="Queries.php">Execute Select Queries</a>
-    <a href="custom_sql.php">Specify Custom SQL Query</a>
+    <a href="database_query_form.php">Custom SQL Query</a>
 
 <button onclick="confirmLogout()">Logout</button>
 
