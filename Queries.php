@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AW&H Database Menu</title>
+    <title>AW&H Query Menu</title>
+    <?php include 'menu.php'; ?>
 </head>
 <body>
-    <h1>AW&H Database Menu</h1>
+
+    <h1>AW&H Query Menu</h1>
     <form method="post">
         <p>Select a query to execute:</p>
         <label><input type="radio" name="queryNumber" value="1"> Show current Bank account number (BAN)</label><br>
