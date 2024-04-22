@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $host = "localhost";
     $database_name = "Employees";
     $username = "root";
-    $password = "@Mysql123";
+    $password = "";
 
     // Connect to database
     $connection = mysqli_connect($host, $username, $password, $database_name);
