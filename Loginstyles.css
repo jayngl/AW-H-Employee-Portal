@@ -1,22 +1,14 @@
 
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* Set background image */
     background-image: url('law.jpg');
-    /* Set background color with opacity */
-    background-color: rgba(255, 255, 255, 1); /* Adjust the last value (0.5) for opacity */
-    /* Ensure the image covers the entire viewport */
+    background-color: rgba(255, 255, 255, 1);
     background-size: cover;
-    /* Center the background image */
     background-position: center;
-    /* Fixed background */
     background-attachment: fixed;
-    /* Make sure text is readable on top of the background */
-    color: #000; /* Adjust text color as needed */
+    color: #000;
 }
 
 
@@ -88,5 +80,5 @@ h1 {
 
 ::placeholder {
     color: grey;
-    opacity: 1; /* Firefox */
+    opacity: 1;
   }
