@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="queriestyle.css">
+    <link rel="icon" href="court.png">
     <title>AW&H Query Menu</title>
     <?php include 'menu.php'; ?>
 </head>
