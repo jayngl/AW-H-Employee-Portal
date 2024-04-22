@@ -82,14 +82,33 @@ $connection->close();
 }  
 ?>
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Loginstyles.css">
+    <link rel="icon" href="court.png">
+    <title>Employee Login</title>
+ 
+
+</head>
 <body>
-    <form action="" method="post"> 
-        Enter your username (First and Last name): <input name="username" type="text">
-        <br>
-        Enter your password (EIN): <input name="password" type="password">
-        <br>
-        <input type="submit" value="Log In">
-    </form>
+
+<div class="container">
+<h1>Employee Login Portal</h1>
+        <form action="" method="post">
+            <label for="username">Enter your username</label>
+            <input id="username" name="username" type="text" placeholder="First and Last name">
+            <br>
+            <label for="password">Enter your password</label>
+            <input id="password" name="password" type="password" placeholder="EIN">
+            <br>
+            <input type="submit" value="Log In">
+        </form>
+    </div>
+
 </body>
 </html>
+
+
