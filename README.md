@@ -8,16 +8,22 @@ connect to database server – before allowing the user to proceed to the
 solution for task b), a confirmation that the connection is successful must be
 displayed to the user; if the connection is unsuccessful, after every three
 attempts, your group’s web application must display an appropriate message.
+
 b) Display the following as menu options, so as to let the user perform each task
 upon successfully connecting to the AW&H’s database:
+
  Allow the user to send an email, to a specified email address, with their
 selected employment details (excluding their password)
  Allow the user to select and execute from the following list of in-built
 select queries:
+
  show their current BAN
+
  show the current branch for their bank
+
  give the total monies to be received for net pay (calculate this as:
 salary – deductions)
+
  show their current highest qualification
  Allow the user to specify their own SQL query, which includes using
 select and update queries upon the employees table. Ensure that the
