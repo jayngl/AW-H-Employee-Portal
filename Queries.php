@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="queriestyle.css">
     <link rel="icon" href="court.png">
     <title>AW&H Query Menu</title>
-    <?php include 'menu.php'; ?>
+    <!-- <?php include 'menu.php'; ?> -->
 </head>
 <body>
 
-    <h1>AW&H Query Menu</h1>
-    <form method="post">
+<header class="navbar">
+
+<h1 class="logo" > <img src="court.png" alt=""><a href="index.php">AW&H Employee Portal</a> </h1>
+<nav>
+        <ul class="nav-links">
+            <li><a href="sendingemails.php">Email Us</a></li>
+            <li><a href="Queries.php">Create Queries</a></li>
+            <li><a href="database_query_form.php">Create SQL Queries</a></li>
+        </ul>
+    </nav>
+</header>
+    
+    <form class="form" method="post">
+    <center><h1>AW&H Query Menu</h1></center>
         <p>Select a query to execute:</p>
         <label><input type="radio" name="queryNumber" value="1"> Show current Bank account number (BAN)</label><br>
         <label><input type="radio" name="queryNumber" value="2"> Show current Bank Branch</label><br>
@@ -33,7 +45,7 @@ function get_db_connection() {
     $host = "localhost";
     $database_name = "Employees";
     $username = "root";
-    $password = "";
+    $password = "@Mysql123";
 
     // Create connection
     $connection = new mysqli($host, $username, $password, $database_name);

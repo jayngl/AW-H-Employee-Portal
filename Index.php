@@ -11,12 +11,12 @@
 
 <header class="navbar">
 
-    <h1 class="logo" > <img src="court.png" alt="">AW&H Employee Portal </h1>
+    <h1 class="logo" > <img src="court.png" alt="">AW&H Employee Portal</h1>
     <nav>
         <ul class="nav-links">
-            <li><a href="sendingemails.php">Send Email</a></li>
-            <li><a href="Queries.php">Execute Queries</a></li>
-            <li><a href="custom_sql.php">SQL Query</a></li>
+            <li><a href="sendingemails.php">Email Us</a></li>
+            <li><a href="Queries.php">Create Queries</a></li>
+            <li><a href="database_query_form.php">Create SQL Queries</a></li>
             <li><button onclick="confirmLogout()">Logout</button></li>
         </ul>
     </nav>

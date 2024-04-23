@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="database_query.css">
+    <link rel="icon" href="court.png">
     <title>Database Query Form</title>
-    <?php include 'menu.php'; ?>
+
+
+    
 </head>
 <body>
+<header class="navbar">
 
+<h1 class="logo" > <img src="court.png" alt=""><a href="index.php">AW&H Employee Portal</a> </h1>
+<nav>
+        <ul class="nav-links">
+            <li><a href="sendingemails.php">Email Us</a></li>
+            <li><a href="Queries.php">Create Queries</a></li>
+            <li><a href="database_query_form.php">Create SQL Queries</a></li>
+        </ul>
+    </nav>
+</header>
+<center>
 
-
-<h1>Database Query Form</h1>
 
 <form method="post" action="process_query.php" onsubmit="return validateForm()">
+<h1>Database Query Form</h1>
     <label for="action">Select Database Action:</label>
     <select id="action" name="action" onchange="handleActionChange()">
         <option value="">-- Select Action --</option> <!-- Default option not selected. Spaceholder-->
@@ -40,6 +54,7 @@
     <input type="submit" value="Execute Query"> <!--When submit button is clicked. Run query-->
 </form>
 
+</center>
 <script>
 function handleActionChange() {
     var actionSelect = document.getElementById("action");

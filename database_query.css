@@ -12,11 +12,14 @@ body {
 }
 
 .navbar {
-    background-color: white;
+    background-color:white;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+
+   
+    
 }
 
 .navbar h1.logo {
@@ -28,11 +31,11 @@ body {
 }
 
 h1.logo a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none; 
+    color: inherit; 
 }
 
-img {
+img{
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -46,13 +49,17 @@ img {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; 
+    
 }
 
 .navbar nav ul li {
+
     margin-right: 10px;
     margin-top: 10px;
     padding-bottom: 1%;
+
+    
 }
 
 .navbar nav ul li a {
@@ -61,78 +68,61 @@ img {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    position: relative;
+    position: relative; 
+
 }
 
 .navbar nav ul li a::after {
-    content: '';
+    content: ''; 
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 2px;
+    height: 2px; 
     background-color: transparent;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; 
 }
 
 .navbar nav ul li a:hover::after {
-    background-color: black;
+    background-color: black; 
 }
 
-.navbar nav ul li button {
-    background-color: gray;
-    color: black;
-    border: none;
-    padding: 12px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px 4px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-}
 
-.navbar nav ul li button:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-}
 
 center {
     margin-top: 50px;
 }
 
-/* Style for radio buttons */
-input[type="radio"] {
-  margin-right: 5px;
-  
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: .5px solid white;
 }
 
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 16px;
+    font-size: 16px;
 }
 
-
-.form {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
+select,
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
 }
-
-
-.form h1 {
-  margin-top: 0;
-}
-
 
 input[type="submit"] {
     display: block;
