@@ -4,7 +4,7 @@ session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate and sanitize input
     if (isset($_POST["action"], $_POST["field"])) {
-        $action = strtoupper($_POST["ACTION"]); 
+        $action = strtoupper($_POST["action"]); 
         $field = $_POST["field"];
 
         // Database credentials
