@@ -16,7 +16,7 @@ Tech Stack:
 
 Installation:
 
-Clone the repository:
+Clone the repository:https://github.com/jayngl/AW-H-Employee-Portal.git
 
 Set up a local server (e.g., XAMPP, WAMP).
 Configure database connection in config.php.
