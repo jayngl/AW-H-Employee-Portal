@@ -1,5 +1,9 @@
+
 AW&H Employee Portal
 A PHP-based web application for AW&H employees to securely connect to the company database, view employment details, send emails, execute queries, and update records.
+
+![AW-H-Employee-Portal](https://github.com/user-attachments/assets/8185b6a9-8088-47c3-9793-8ac171f1fca4)
+
 
 Features:
 
